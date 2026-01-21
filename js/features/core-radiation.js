@@ -46,7 +46,7 @@ const CORE_RAD = {
     limitIncrease() {
         let x = player.core.radiation.boost
 
-        if (x.gte('ee1000')) x = x.log10().log10().div(1e3).sub(1).div(tmp.cr_decay_speed).pow10().mul(1e3).pow10().pow10();
+        if (x.gte('ee1000')) x = x.log10().log10().div(1e3).sub(1).div(tmp.cr_decay_speed).pow10().mul(1e2).pow10().pow10();
 
         x = Decimal.pow(1e3,x.scaleAll("cr_boost").pow(hasResearch('c12') ? 1.2 : 1.25))
 
