@@ -3,7 +3,7 @@ const FORGE = {
         max: 4,
         unl: ()=>true,
 
-        time: [10,300,6000,1e41],
+        time: [5,5,5,5],
         cost: [
             [
                 ['bismuth',1e3],
@@ -23,7 +23,7 @@ const FORGE = {
         max: 8,
         unl: ()=>hasForgeUpgrade('anvil'),
 
-        time: [150, 300, 600, 900, 3000, 6000, 2e7, 1e45],
+        time: [5, 5, 5, 5, 5, 5, 5, 5],
         cost: [
             [
                 ['stone',1e47],
@@ -65,7 +65,7 @@ const FORGE = {
         max: 5,
         unl: ()=>hasForgeUpgrade('anvil'),
 
-        time: [150,300,600,1800,1e45],
+        time: [5,5,5,5,5],
         cost: [
             [
                 ['prestige','ee50',true],
@@ -96,7 +96,7 @@ const FORGE = {
         max: 4,
         unl: ()=>hasForgeUpgrade('anvil'),
 
-        time: [150,600,900,6000],
+        time: [5,5,5,5],
         cost: [
             [
                 ['humanoid',36,true],
@@ -120,7 +120,7 @@ const FORGE = {
         max: 4,
         unl: ()=>hasForgeUpgrade('anvil',2),
 
-        time: [300, 1800, 1e7, 1],
+        time: [5, 5, 5, 5],
         cost: [
             [
                 ['prestige','ee63',true],
@@ -143,7 +143,7 @@ const FORGE = {
         max: 2,
         unl: ()=>hasForgeUpgrade('anvil',2),
 
-        time: [300, 1800],
+        time: [5, 5],
         cost: [
             [
                 ['core','e5400',true],
@@ -157,7 +157,7 @@ const FORGE = {
         max: 5,
         unl: ()=>hasForgeUpgrade('anvil',3),
 
-        time: [6000, 1e7, 1e8,1e10,1e45],
+        time: [5, 5, 5, 5, 5],
         cost: [
             [
                 ['fish','ee91',true],
@@ -188,7 +188,7 @@ const FORGE = {
         max: 6,
         unl: ()=>hasForgeUpgrade('anvil',3),
 
-        time: [6000, 2e7, 3e9, 1e45,1e48,1e70],
+        time: [5, 5, 5, 5, 5, 5],
         cost: [
             [
                 ['prestige','e2.5e105',true],
@@ -222,7 +222,7 @@ const FORGE = {
         max: 4,
         unl: ()=>player.feature >= 16,
 
-        time: [1e8,3e8,6e8,5e9],
+        time: [5,5,5,5],
         cost: [
             [
                 ['stone','e243'],
@@ -243,7 +243,7 @@ const FORGE = {
         max: 6,
         unl: ()=>hasForgeUpgrade('anvil',4),
 
-        time: [1e42,1e45,1e51,1e66,1e188,1],
+        time: [5,5,5,5,5,5],
         cost: [
             [
                 ['remnants',1e135],
